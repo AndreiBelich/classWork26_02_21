@@ -2,17 +2,57 @@
   box-sizing: border-box;
 }
 
-.item:first-child{
-  color:red;
+.outer-wrapper{
+  background-color: orange;
+  min-height: 200vh;
+  padding-top: 100px;
 }
 
-.item:last-child{
-  background-color: yellow;
+.inner-wrapper{
+  width:80%;
+  background-color: black;
+  margin: 0 auto;
 }
 
-div.container > .item:nth-child(2n +1){
-  background-color: crimson;
+
+.block{
+  text-align: center;
   color: white;
+  font-size: 25px;
 }
 
+.red-block{
+  width: 140px;
+  height: 140px;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
+.blue-block{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.green-block{
+  width: 175px;
+  height: 175px;
+  background-color: green;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.brown-block{
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
