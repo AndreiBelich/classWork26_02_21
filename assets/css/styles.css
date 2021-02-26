@@ -2,52 +2,17 @@
   box-sizing: border-box;
 }
 
-.link{
-  text-decoration: none;
-  display: inline-block;
-  background-color: dodgerblue;
-  /*color: white;*/
-  padding: 10px 15px;
+.item:first-child{
+  color:red;
 }
 
-.link-list > li~li{
-  margin-top: 20px;
+.item:last-child{
+  background-color: yellow;
 }
 
-
-
-.link:link{
-  background-color: purple;
-}
-
-.link:visited{
-  color: brown;
-}
-
-.link:hover{
-  background-color: orange;
-  font-size: 1.3em;
-}
-
-.link:hover:not(button){
+div.container > .item:nth-child(2n +1){
   background-color: crimson;
-  font-size: 1.2em;
-}
-
-.link:active{
-  background-color: red;
   color: white;
 }
 
-.container:hover{
-  background-color: lightgreen;
-}
-
-.container:active{
-  color: red;
-}
-
-div:not(.wrapper){
-  font-size: 1.5em;
-}
 
